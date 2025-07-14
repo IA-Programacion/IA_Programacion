@@ -1,0 +1,37 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.nav-barra-principal {
+  min-height: 100px !important;
+  height: 120px !important;
+  display: flex;
+  align-items: center;
+}
+
+.nav-barra-principal .brand-logo {
+  font-size: 2.8rem !important;
+  line-height: 120px !important;
+}
+
+@media (max-width: 992px) {
+  .nav-barra-principal {
+    min-height: 70px !important;
+    height: 80px !important;
+  }
+  .nav-barra-principal .brand-logo {
+    font-size: 1.5rem !important;
+    line-height: 80px !important;
+  }
+}
